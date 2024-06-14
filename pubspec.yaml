@@ -1,0 +1,86 @@
+name: flutter_pokedex
+description: "A new Flutter project."
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.2 <4.0.0"
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # icons
+  ionicons: ^0.2.2
+  cupertino_icons: ^1.0.6
+
+  # state management
+  flutter_bloc: ^8.1.5
+
+  # comparing dart objects
+  equatable: ^2.0.5
+
+  # service locator
+  get_it: ^7.6.7
+
+  # date format
+  intl: ^0.19.0
+
+  # database
+  floor: ^1.4.2
+
+  # remote api reques
+  retrofit: ^4.1.0
+  dio: ^5.4.2+1
+  awesome_dio_interceptor: ^1.2.0
+
+  # hooks
+  flutter_hooks: ^0.20.5
+
+  # cached image
+  cached_network_image: ^3.3.1
+  transparent_image: ^2.0.1
+
+  # navigation
+  go_router: ^13.2.2
+
+  # Toast messages
+  oktoast: ^3.4.0
+
+  # Color Palatte Generator
+  palette_generator: ^0.3.3+3
+
+  # List & Grid View
+  auto_animated: ^3.2.0
+  auto_animated_list: ^1.0.4
+
+  # svg image
+  flutter_svg: ^2.0.10+1
+
+  cuberto_bottom_bar: ^3.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+  retrofit_generator: ^8.1.0
+  floor_generator: ^1.4.2
+  build_runner: ^2.4.9
+  json_serializable: ^6.7.1
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/animations/
+    - assets/images/
+
+  fonts:
+    - family: Montserrat
+      fonts:
+        - asset: assets/fonts/montserrat/Montserrat-Regular.ttf
+        - asset: assets/fonts/montserrat/Montserrat-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/montserrat/Montserrat-Light.ttf
+          weight: 300
